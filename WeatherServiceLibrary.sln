@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherServiceLibrary", "WeatherServiceLibrary\WeatherServiceLibrary.csproj", "{095E4740-EB99-4ECD-8693-8E9DA04CCD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherConsole", "WeatherConsole\WeatherConsole.csproj", "{DE431033-8EFB-4731-BB92-2D167B32D85C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{095E4740-EB99-4ECD-8693-8E9DA04CCD42} = {095E4740-EB99-4ECD-8693-8E9DA04CCD42}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{095E4740-EB99-4ECD-8693-8E9DA04CCD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095E4740-EB99-4ECD-8693-8E9DA04CCD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095E4740-EB99-4ECD-8693-8E9DA04CCD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095E4740-EB99-4ECD-8693-8E9DA04CCD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE431033-8EFB-4731-BB92-2D167B32D85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE431033-8EFB-4731-BB92-2D167B32D85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE431033-8EFB-4731-BB92-2D167B32D85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE431033-8EFB-4731-BB92-2D167B32D85C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
